@@ -13,13 +13,13 @@ function Cards() {
               src='images/happyGirls3.jpeg'
               text='This is the live we choose,to be happy!!'
               label='Limitless'
-              path='/services'
+              path='/contact'
             />
             <CardItem
               src='images/elinsiting_3.jpg'
               text='Happyily Training with the women!!'
               label='Happy'
-              path='/services'
+              path='/'
             />
           </ul>
           <ul className='cards__items'>
@@ -27,13 +27,7 @@ function Cards() {
               src='images/elin2gil.jpg'
               text='You only live once, so live as if there is no tomorrow!!'
               label='Live life'
-              path='/services'
-            />
-            <CardItem
-              src='images/elin4women.jpg'
-              text='Experience some good warn up technique'
-              label='Limitless'
-              path='/products'
+              path='/calendar'
             />
             <CardItem
               src='images/elinswapup.jpg'
@@ -41,6 +35,13 @@ function Cards() {
               label='Limitless'
               path='/contact'
             />
+            <CardItem
+              src='images/elin4women.jpg'
+              text='Experience some good warn up technique'
+              label='Limitless'
+              path='/contact'
+            />
+            
           </ul>
         </div>
       </div>

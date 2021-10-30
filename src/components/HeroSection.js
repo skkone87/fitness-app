@@ -6,25 +6,25 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>Welcome To Limitless Page</h1>
-      <p>Find Your Trainer Here</p>
+      {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
+      <h2>Welcome To Limitless Page</h2>
+      <p>Find Your Trainer Here!</p>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          Join limitless
+         <a href ='/'> Join limitless</a>
         </Button>
-        <Button
+        {/* <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
+          onClick={console.log('')}
         >
           Professional trainer <i className='far fa-play-circle' />
-        </Button>
+        </Button> */}
       </div>
     </div>
   );
